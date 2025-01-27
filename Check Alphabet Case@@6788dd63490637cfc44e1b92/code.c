@@ -9,8 +9,5 @@ int main() {
     else if(n>='a' && n<='z') {
         printf("Lowercase");
     }
-    else {
-        break;
-    }
     return 0;
 }
