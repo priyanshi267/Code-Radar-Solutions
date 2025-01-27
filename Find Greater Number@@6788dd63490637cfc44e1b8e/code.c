@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int a,b;
-    scanf("%d %d",&a, &b);
+    int a;
+    scanf("%d",&a);
+    int b;
+    scanf("%d",&b);
     if(a>b) {
         printf(a);
     }
