@@ -9,6 +9,9 @@ int main() {
     else if(ch == '5') {
         printf("Digit");
     }
+    else if(chh=='@') {
+        printf("Special Character");
+    }
     else {
         printf("Consonant");
     }
