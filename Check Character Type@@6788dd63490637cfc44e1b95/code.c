@@ -9,7 +9,7 @@ int main() {
     else if(ch == '5') {
         printf("Digit");
     }
-    else if(chh=='@') {
+    else if(ch =='@') {
         printf("Special Character");
     }
     else {
