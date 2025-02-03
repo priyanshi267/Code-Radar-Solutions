@@ -10,7 +10,7 @@ int main() {
         printf("Digit");
     }
     else {
-        printf("Consonant")
+        printf("Consonant");
     }
     return 0;
 }
