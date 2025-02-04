@@ -5,16 +5,16 @@ int main() {
     char d;
     scanf("%d %d %c",&a,&b,&d);
     if(d=='+') {
-        int p=a+b;
-        printf("%d",p);
+        int c=a+b;
+        printf("%d",c);
     }
     else if(d=='-') {
-        int g=a-b;
-        printf("%d",g);
+        int c=a-b;
+        printf("%d",c);
     }
     else if(d=='*') {
-        int j=a*b;
-        printf("%d",j);
+        int c=a*b;
+        printf("%d",c);
     }
     else if(d=='/') {
         if(b!=0) {
