@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int n;
+    char n;
     scanf("%c",&n);
     if(n=='A') {
         printf("Excellent");
