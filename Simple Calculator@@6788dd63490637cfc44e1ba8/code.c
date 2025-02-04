@@ -9,10 +9,10 @@ int main() {
     else if(c==-) {
         printf("%d",a-b);
     }
-    else if(n==*) {
+    else if(c==*) {
         printf("%d",a*b);
     }
-    else if(n==/) {
+    else if(c==/) {
         printf("%d",a/b);
     }
     else {
