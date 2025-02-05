@@ -6,7 +6,7 @@ int main() {
     scanf("%d",&a);
     msb = 1<<(BITS-1);
     if(a & msb) {
-        printf("SET");
+        printf("Set");
     }
     else {
         printf("Not Set");
