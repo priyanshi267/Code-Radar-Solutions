@@ -18,6 +18,6 @@ int fab(int n) {
     if(n<=0) {
         printf("Invalid input\n");
     }
-    fib(n) = fib(n-1) + fib(n-2);
-    return fib(n);
+    int fibN = fib(n-1) + fib(n-2);
+    return fibN;
 }
