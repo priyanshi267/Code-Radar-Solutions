@@ -20,5 +20,6 @@ int fib(int n) {
         printf("Invalid input\n");
     }
     int fibN = fib(n-1) + fib(n-2);
+    printf("%d", fibN);
     return fibN;
 }
