@@ -5,21 +5,30 @@ void fibonacciSeries(int n);
 int main() {
     int n;
     scanf("%d",&n);
-    fibonacciSeries(n);
+    if(n<=0) {
+        printf("Invalid input\n");
+    }
+    else {
+        fibonacciSeries(n);
+    }
     return 0;
 }
 
 void fibonacciSeries(int n) {
+    int first = 0;
+    int second = 0;
+    int next;
     if(n==0) {
-        return 0;
+        printf("%d",first);
     }
     if(n==1) {
-        return 1;
+        printf("%d",second);
     }
-    if(n<=0) {
-        printf("Invalid input\n");
+    for(int i=3; i<=n;i++) {
+        next = first + second;
+        printf("%d", next);
+        first = second;
+        second = next;
     }
-    int fibonacciSeriesN = fibonacciSeries(n-1) + fibonacciSeries(n-2);
-    printf("%d", fibonacciSeriesN);
-    return fibonacciSeriesN;
+    printf("\n");
 }
