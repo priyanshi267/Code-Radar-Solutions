@@ -4,29 +4,34 @@ void fibonacciSeries(int n);
 
 int main() {
     int n;
-    scanf("%d",&n);
-    if(n<=0) {
+    scanf("%d", &n);
+    
+    if (n <= 0) {
         printf("Invalid input\n");
-    }
-    else {
+    } else {
         fibonacciSeries(n);
     }
+    
     return 0;
 }
 
 void fibonacciSeries(int n) {
-    int first = 0;
-    int second = 0;
-    int next;
-    if(n==0) {
-        printf("%d",first);
+    int first = 0, second = 1, next;
+    
+    // Printing the first two numbers of the Fibonacci series
+    if (n >= 1) {
+        printf("%d ", first); // print 0
     }
-    if(n==1) {
-        printf("%d",second);
+    
+    if (n >= 2) {
+        printf("%d ", second); // print 1
     }
-    for(int i=3; i<=n;i++) {
+
+    // Printing the rest of the Fibonacci series
+    for (int i = 3; i <= n; i++) {
         next = first + second;
-        printf("%d", next);
+        printf("%d ", next);
+        
         first = second;
         second = next;
     }
