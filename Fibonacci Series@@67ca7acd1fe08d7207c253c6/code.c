@@ -1,15 +1,15 @@
 #include<stdio.h>
 
-int fib(int n);
+int fibonacciSeries(int n);
 
 int main() {
     int n;
     scanf("%d",&n);
-    fib(n);
+    fibonacciSeries(n);
     return 0;
 }
 
-int fib(int n) {
+int fibonacciSeries(int n) {
     if(n==0) {
         return 0;
     }
@@ -19,7 +19,7 @@ int fib(int n) {
     if(n<=0) {
         printf("Invalid input\n");
     }
-    int fibN = fib(n-1) + fib(n-2);
-    printf("%d", fibN);
-    return fibN;
+    int fibonacciSeriesN = fibonacciSeries(n-1) + fibonacciSeries(n-2);
+    printf("%d", fibonacciSeriesN);
+    return fibonacciSeriesN;
 }
