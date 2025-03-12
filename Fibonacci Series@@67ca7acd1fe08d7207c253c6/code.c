@@ -5,10 +5,11 @@ int fib(int n);
 int main() {
     int n;
     scanf("%d",&n);
+    fib(n);
     return 0;
 }
 
-int fab(int n) {
+int fib(int n) {
     if(n==0) {
         return 0;
     }
