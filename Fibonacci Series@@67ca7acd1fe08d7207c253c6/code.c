@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int fib(int n);
+
+int main() {
+    int n;
+    scanf("%d",&n);
+    return 0;
+}
+
+int fab(int n) {
+    if(n==0) {
+        return 0;
+    }
+    if(n==10) {
+        return 1;
+    }
+    if(n<=0) {
+        printf("Invalid input\n");
+    }
+    fib(n) = fib(n-1) + fib(n-2);
+    return fib(n);
+}
