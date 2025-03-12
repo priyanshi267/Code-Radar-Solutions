@@ -16,9 +16,9 @@ int fibonacciSeries(int n) {
     if(n==1) {
         return 1;
     }
-    if(n<=0) {
-        printf("Invalid input\n");
-    }
+    // if(n<=0) {
+    //     printf("Invalid input\n");
+    // }
     int fibonacciSeriesN = fibonacciSeries(n-1) + fibonacciSeries(n-2);
     printf("%d", fibonacciSeriesN);
     return fibonacciSeriesN;
