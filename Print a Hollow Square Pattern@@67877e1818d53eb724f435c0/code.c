@@ -6,12 +6,13 @@ int main() {
     for(int i=1;i<=N;i++) {
         for(int j=1;j<=N;j++) {
             if(i==0 || i==N-1 || j==0 || j==N-1) {
-                printf('*',end=' ');
+                printf("*");
             }
             else {
-                printf(' ');
+                printf(" ");
             }
         }
+        printf("\n")
     }
     return 0;
 }
