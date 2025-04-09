@@ -6,8 +6,8 @@ int main() {
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int num=arr[i],sum = 0;
     for(int i=0;i<n;i++){
+        int num=arr[i],sum = 0;
         while(num>0){
             sum = sum + (num%10);
             num = num / 10;
