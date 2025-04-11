@@ -8,7 +8,7 @@ int main(){
     }
     int count[N];
     for(int i=0;i<N;i++){
-        count[i]=0
+        count[i]=0;
     }
     for(int i=0;i<N;i++){
         for(int j=i+1;j<N;j++){
