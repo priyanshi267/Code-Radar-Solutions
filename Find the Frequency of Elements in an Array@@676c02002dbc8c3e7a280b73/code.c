@@ -19,7 +19,7 @@ int main(){
         }
     }
     for (int i = 0; i < N; i++) {
-        if (count[i] != 0) {
+        if (count[i] != -1) {
             printf("%d %d\n", arr[i], count[i] + 1); // +1 to include the first occurrence
         }
     }
