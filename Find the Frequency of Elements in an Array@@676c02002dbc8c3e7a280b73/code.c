@@ -8,6 +8,7 @@ int main(){
     }
     int count[N];
     for(int i=0;i<N;i++){
+        scanf("%d",&count[i]);
         count[i]=0;
     }
     for(int i=0;i<N;i++){
